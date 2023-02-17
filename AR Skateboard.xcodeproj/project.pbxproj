@@ -13,6 +13,8 @@
 		435DF7DE299F776600FBA64A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435DF7DD299F776600FBA64A /* Preview Assets.xcassets */; };
 		435DF7E6299F784400FBA64A /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF7E5299F784400FBA64A /* CustomARView.swift */; };
 		435DF7E8299F79C900FBA64A /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF7E7299F79C900FBA64A /* CustomARViewRepresentable.swift */; };
+		435DF815299FB60E00FBA64A /* ARAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF814299FB60E00FBA64A /* ARAction.swift */; };
+		435DF817299FB67900FBA64A /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF816299FB67900FBA64A /* ARManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		435DF7DD299F776600FBA64A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		435DF7E5299F784400FBA64A /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		435DF7E7299F79C900FBA64A /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		435DF814299FB60E00FBA64A /* ARAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAction.swift; sourceTree = "<group>"; };
+		435DF816299FB67900FBA64A /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 			children = (
 				435DF7D8299F776400FBA64A /* ContentView.swift */,
 				435DF7E5299F784400FBA64A /* CustomARView.swift */,
+				435DF814299FB60E00FBA64A /* ARAction.swift */,
+				435DF816299FB67900FBA64A /* ARManager.swift */,
 				435DF7E7299F79C900FBA64A /* CustomARViewRepresentable.swift */,
 			);
 			path = "AR Components";
@@ -152,8 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				435DF7D9299F776400FBA64A /* ContentView.swift in Sources */,
+				435DF815299FB60E00FBA64A /* ARAction.swift in Sources */,
 				435DF7E6299F784400FBA64A /* CustomARView.swift in Sources */,
 				435DF7D7299F776400FBA64A /* AR_SkateboardApp.swift in Sources */,
+				435DF817299FB67900FBA64A /* ARManager.swift in Sources */,
 				435DF7E8299F79C900FBA64A /* CustomARViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
