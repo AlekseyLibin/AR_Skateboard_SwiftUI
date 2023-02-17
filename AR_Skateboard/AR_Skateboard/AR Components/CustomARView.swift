@@ -27,16 +27,24 @@ final class CustomARView: ARView {
   }
   
   private var cancellables: Set<AnyCancellable> = []
+  private var skateboard: Skateboard.Scene? = nil
   
   func subscribeToActionStream() {
     ARManager.shared
       .actionStream
       .sink { [weak self] action in
+        guard let self = self else { return }
         switch action {
+        case .placeSkateboard:
+          guard let skateboard = try? Skateboard.loadScene() else { return }
+          self.scene.addAnchor(skateboard)
+          self.skateboard = skateboard
+        case .playSkateboardAnimation:
+          self.skateboard?.notifications.spinBehavior.post()
         case .removeAllAnchors:
-          self?.scene.anchors.removeAll()
+          self.scene.anchors.removeAll()
         case .placeBlock(color: let color):
-          self?.placeBlock(ofColor: color)
+          self.placeBlock(ofColor: color)
         }
       }
       .store(in: &cancellables)

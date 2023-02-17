@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "435DF7D2299F776400FBA64A"
-               BuildableName = "AR Skateboard.app"
-               BlueprintName = "AR Skateboard"
-               ReferencedContainer = "container:AR Skateboard.xcodeproj">
+               BlueprintIdentifier = "435DF8BA299FE43F00FBA64A"
+               BuildableName = "AR_Skateboard.app"
+               BlueprintName = "AR_Skateboard"
+               ReferencedContainer = "container:AR_Skateboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "435DF7D2299F776400FBA64A"
-            BuildableName = "AR Skateboard.app"
-            BlueprintName = "AR Skateboard"
-            ReferencedContainer = "container:AR Skateboard.xcodeproj">
+            BlueprintIdentifier = "435DF8BA299FE43F00FBA64A"
+            BuildableName = "AR_Skateboard.app"
+            BlueprintName = "AR_Skateboard"
+            ReferencedContainer = "container:AR_Skateboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -68,10 +68,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "435DF7D2299F776400FBA64A"
-            BuildableName = "AR Skateboard.app"
-            BlueprintName = "AR Skateboard"
-            ReferencedContainer = "container:AR Skateboard.xcodeproj">
+            BlueprintIdentifier = "435DF8BA299FE43F00FBA64A"
+            BuildableName = "AR_Skateboard.app"
+            BlueprintName = "AR_Skateboard"
+            ReferencedContainer = "container:AR_Skateboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -17,29 +17,36 @@ struct ContentView: View {
         .overlay(alignment: .bottom) {
           ScrollView(.horizontal) {
             HStack {
+              Button("Place") {
+                ARManager.shared.actionStream.send(.placeSkateboard)
+              }
+                .frame(width: 50, height: 50)
+                .font(.system(size: 20))
+                .padding()
+                .background(.regularMaterial)
+                .cornerRadius(16)
+              
+              Button("360º") {
+                ARManager.shared.actionStream.send(.playSkateboardAnimation)
+              }
+                .frame(width: 50, height: 50)
+                .font(.system(size: 20))
+                .padding()
+                .background(.regularMaterial)
+                .cornerRadius(16)
+              
               Button {
                 ARManager.shared.actionStream.send(.removeAllAnchors)
               } label: {
                 Image(systemName: "trash")
                   .resizable()
                   .scaledToFit()
-                  .frame(width: 40, height: 40)
+                  .frame(width: 50, height: 50)
                   .padding()
-                  .backgroundStyle(.regularMaterial)
+                  .background(.regularMaterial)
                   .cornerRadius(16)
               }
               
-              ForEach(colors, id: \.self) { color in
-                Button {
-                  ARManager.shared.actionStream.send(.placeBlock(color: color))
-                } label: {
-                  color
-                    .frame(width: 40, height: 40)
-                    .padding()
-                    .backgroundStyle(.regularMaterial)
-                    .cornerRadius(16)
-                }
-              }
             }
             .padding()
           }

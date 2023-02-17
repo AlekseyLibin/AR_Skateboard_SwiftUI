@@ -7,30 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		435DF7D7299F776400FBA64A /* AR_SkateboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF7D6299F776400FBA64A /* AR_SkateboardApp.swift */; };
-		435DF7D9299F776400FBA64A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF7D8299F776400FBA64A /* ContentView.swift */; };
-		435DF7DB299F776600FBA64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435DF7DA299F776600FBA64A /* Assets.xcassets */; };
-		435DF7DE299F776600FBA64A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435DF7DD299F776600FBA64A /* Preview Assets.xcassets */; };
-		435DF7E6299F784400FBA64A /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF7E5299F784400FBA64A /* CustomARView.swift */; };
-		435DF7E8299F79C900FBA64A /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF7E7299F79C900FBA64A /* CustomARViewRepresentable.swift */; };
-		435DF815299FB60E00FBA64A /* ARAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF814299FB60E00FBA64A /* ARAction.swift */; };
-		435DF817299FB67900FBA64A /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF816299FB67900FBA64A /* ARManager.swift */; };
+		435DF8C3299FE44100FBA64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435DF8C2299FE44100FBA64A /* Assets.xcassets */; };
+		435DF8C6299FE44100FBA64A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435DF8C5299FE44100FBA64A /* Preview Assets.xcassets */; };
+		435DF8D2299FE46000FBA64A /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8CD299FE46000FBA64A /* CustomARView.swift */; };
+		435DF8D3299FE46000FBA64A /* ARAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8CE299FE46000FBA64A /* ARAction.swift */; };
+		435DF8D4299FE46000FBA64A /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8CF299FE46000FBA64A /* CustomARViewRepresentable.swift */; };
+		435DF8D5299FE46000FBA64A /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8D0299FE46000FBA64A /* ARManager.swift */; };
+		435DF8D6299FE46000FBA64A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8D1299FE46000FBA64A /* ContentView.swift */; };
+		435DF8D8299FE46700FBA64A /* AR_SkateboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8D7299FE46700FBA64A /* AR_SkateboardApp.swift */; };
+		435DF8DA299FE47C00FBA64A /* Skateboard.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8D9299FE47C00FBA64A /* Skateboard.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		435DF7D3299F776400FBA64A /* AR Skateboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Skateboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		435DF7D6299F776400FBA64A /* AR_SkateboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_SkateboardApp.swift; sourceTree = "<group>"; };
-		435DF7D8299F776400FBA64A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		435DF7DA299F776600FBA64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		435DF7DD299F776600FBA64A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		435DF7E5299F784400FBA64A /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
-		435DF7E7299F79C900FBA64A /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
-		435DF814299FB60E00FBA64A /* ARAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAction.swift; sourceTree = "<group>"; };
-		435DF816299FB67900FBA64A /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		435DF8BB299FE43F00FBA64A /* AR_Skateboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_Skateboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435DF8C2299FE44100FBA64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435DF8C5299FE44100FBA64A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		435DF8CD299FE46000FBA64A /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		435DF8CE299FE46000FBA64A /* ARAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAction.swift; sourceTree = "<group>"; };
+		435DF8CF299FE46000FBA64A /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		435DF8D0299FE46000FBA64A /* ARManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		435DF8D1299FE46000FBA64A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		435DF8D7299FE46700FBA64A /* AR_SkateboardApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AR_SkateboardApp.swift; sourceTree = "<group>"; };
+		435DF8D9299FE47C00FBA64A /* Skateboard.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Skateboard.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		435DF7D0299F776400FBA64A /* Frameworks */ = {
+		435DF8B8299FE43F00FBA64A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,49 +42,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		435DF7CA299F776400FBA64A = {
+		435DF8B2299FE43F00FBA64A = {
 			isa = PBXGroup;
 			children = (
-				435DF7D5299F776400FBA64A /* AR Skateboard */,
-				435DF7D4299F776400FBA64A /* Products */,
+				435DF8BD299FE43F00FBA64A /* AR_Skateboard */,
+				435DF8D9299FE47C00FBA64A /* Skateboard.rcproject */,
+				435DF8BC299FE43F00FBA64A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		435DF7D4299F776400FBA64A /* Products */ = {
+		435DF8BC299FE43F00FBA64A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				435DF7D3299F776400FBA64A /* AR Skateboard.app */,
+				435DF8BB299FE43F00FBA64A /* AR_Skateboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		435DF7D5299F776400FBA64A /* AR Skateboard */ = {
+		435DF8BD299FE43F00FBA64A /* AR_Skateboard */ = {
 			isa = PBXGroup;
 			children = (
-				435DF7E4299F782500FBA64A /* AR Components */,
-				435DF7D6299F776400FBA64A /* AR_SkateboardApp.swift */,
-				435DF7DA299F776600FBA64A /* Assets.xcassets */,
-				435DF7DC299F776600FBA64A /* Preview Content */,
+				435DF8CC299FE46000FBA64A /* AR Components */,
+				435DF8D7299FE46700FBA64A /* AR_SkateboardApp.swift */,
+				435DF8C2299FE44100FBA64A /* Assets.xcassets */,
+				435DF8C4299FE44100FBA64A /* Preview Content */,
 			);
-			path = "AR Skateboard";
+			path = AR_Skateboard;
 			sourceTree = "<group>";
 		};
-		435DF7DC299F776600FBA64A /* Preview Content */ = {
+		435DF8C4299FE44100FBA64A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				435DF7DD299F776600FBA64A /* Preview Assets.xcassets */,
+				435DF8C5299FE44100FBA64A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		435DF7E4299F782500FBA64A /* AR Components */ = {
+		435DF8CC299FE46000FBA64A /* AR Components */ = {
 			isa = PBXGroup;
 			children = (
-				435DF7D8299F776400FBA64A /* ContentView.swift */,
-				435DF7E5299F784400FBA64A /* CustomARView.swift */,
-				435DF814299FB60E00FBA64A /* ARAction.swift */,
-				435DF816299FB67900FBA64A /* ARManager.swift */,
-				435DF7E7299F79C900FBA64A /* CustomARViewRepresentable.swift */,
+				435DF8CD299FE46000FBA64A /* CustomARView.swift */,
+				435DF8CE299FE46000FBA64A /* ARAction.swift */,
+				435DF8CF299FE46000FBA64A /* CustomARViewRepresentable.swift */,
+				435DF8D0299FE46000FBA64A /* ARManager.swift */,
+				435DF8D1299FE46000FBA64A /* ContentView.swift */,
 			);
 			path = "AR Components";
 			sourceTree = "<group>";
@@ -90,39 +93,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		435DF7D2299F776400FBA64A /* AR Skateboard */ = {
+		435DF8BA299FE43F00FBA64A /* AR_Skateboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 435DF7E1299F776600FBA64A /* Build configuration list for PBXNativeTarget "AR Skateboard" */;
+			buildConfigurationList = 435DF8C9299FE44100FBA64A /* Build configuration list for PBXNativeTarget "AR_Skateboard" */;
 			buildPhases = (
-				435DF7CF299F776400FBA64A /* Sources */,
-				435DF7D0299F776400FBA64A /* Frameworks */,
-				435DF7D1299F776400FBA64A /* Resources */,
+				435DF8B7299FE43F00FBA64A /* Sources */,
+				435DF8B8299FE43F00FBA64A /* Frameworks */,
+				435DF8B9299FE43F00FBA64A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "AR Skateboard";
-			productName = "AR Skateboard";
-			productReference = 435DF7D3299F776400FBA64A /* AR Skateboard.app */;
+			name = AR_Skateboard;
+			productName = AR_Skateboard;
+			productReference = 435DF8BB299FE43F00FBA64A /* AR_Skateboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		435DF7CB299F776400FBA64A /* Project object */ = {
+		435DF8B3299FE43F00FBA64A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					435DF7D2299F776400FBA64A = {
+					435DF8BA299FE43F00FBA64A = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 435DF7CE299F776400FBA64A /* Build configuration list for PBXProject "AR Skateboard" */;
+			buildConfigurationList = 435DF8B6299FE43F00FBA64A /* Build configuration list for PBXProject "AR_Skateboard" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,46 +133,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 435DF7CA299F776400FBA64A;
-			productRefGroup = 435DF7D4299F776400FBA64A /* Products */;
+			mainGroup = 435DF8B2299FE43F00FBA64A;
+			productRefGroup = 435DF8BC299FE43F00FBA64A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				435DF7D2299F776400FBA64A /* AR Skateboard */,
+				435DF8BA299FE43F00FBA64A /* AR_Skateboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		435DF7D1299F776400FBA64A /* Resources */ = {
+		435DF8B9299FE43F00FBA64A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435DF7DE299F776600FBA64A /* Preview Assets.xcassets in Resources */,
-				435DF7DB299F776600FBA64A /* Assets.xcassets in Resources */,
+				435DF8C6299FE44100FBA64A /* Preview Assets.xcassets in Resources */,
+				435DF8C3299FE44100FBA64A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		435DF7CF299F776400FBA64A /* Sources */ = {
+		435DF8B7299FE43F00FBA64A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435DF7D9299F776400FBA64A /* ContentView.swift in Sources */,
-				435DF815299FB60E00FBA64A /* ARAction.swift in Sources */,
-				435DF7E6299F784400FBA64A /* CustomARView.swift in Sources */,
-				435DF7D7299F776400FBA64A /* AR_SkateboardApp.swift in Sources */,
-				435DF817299FB67900FBA64A /* ARManager.swift in Sources */,
-				435DF7E8299F79C900FBA64A /* CustomARViewRepresentable.swift in Sources */,
+				435DF8DA299FE47C00FBA64A /* Skateboard.rcproject in Sources */,
+				435DF8D5299FE46000FBA64A /* ARManager.swift in Sources */,
+				435DF8D6299FE46000FBA64A /* ContentView.swift in Sources */,
+				435DF8D3299FE46000FBA64A /* ARAction.swift in Sources */,
+				435DF8D4299FE46000FBA64A /* CustomARViewRepresentable.swift in Sources */,
+				435DF8D8299FE46700FBA64A /* AR_SkateboardApp.swift in Sources */,
+				435DF8D2299FE46000FBA64A /* CustomARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		435DF7DF299F776600FBA64A /* Debug */ = {
+		435DF8C7299FE44100FBA64A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		435DF7E0299F776600FBA64A /* Release */ = {
+		435DF8C8299FE44100FBA64A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,18 +287,18 @@
 			};
 			name = Release;
 		};
-		435DF7E2299F776600FBA64A /* Debug */ = {
+		435DF8CA299FE44100FBA64A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AR Skateboard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AR_Skateboard/Preview Content\"";
 				DEVELOPMENT_TEAM = 8D62X6RVHH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to show AR View";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,18 +317,18 @@
 			};
 			name = Debug;
 		};
-		435DF7E3299F776600FBA64A /* Release */ = {
+		435DF8CB299FE44100FBA64A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AR Skateboard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AR_Skateboard/Preview Content\"";
 				DEVELOPMENT_TEAM = 8D62X6RVHH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to show AR View";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -346,25 +350,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		435DF7CE299F776400FBA64A /* Build configuration list for PBXProject "AR Skateboard" */ = {
+		435DF8B6299FE43F00FBA64A /* Build configuration list for PBXProject "AR_Skateboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				435DF7DF299F776600FBA64A /* Debug */,
-				435DF7E0299F776600FBA64A /* Release */,
+				435DF8C7299FE44100FBA64A /* Debug */,
+				435DF8C8299FE44100FBA64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		435DF7E1299F776600FBA64A /* Build configuration list for PBXNativeTarget "AR Skateboard" */ = {
+		435DF8C9299FE44100FBA64A /* Build configuration list for PBXNativeTarget "AR_Skateboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				435DF7E2299F776600FBA64A /* Debug */,
-				435DF7E3299F776600FBA64A /* Release */,
+				435DF8CA299FE44100FBA64A /* Debug */,
+				435DF8CB299FE44100FBA64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 435DF7CB299F776400FBA64A /* Project object */;
+	rootObject = 435DF8B3299FE43F00FBA64A /* Project object */;
 }
