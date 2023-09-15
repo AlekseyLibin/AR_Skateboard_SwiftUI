@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/a_libin01/Projects/AR_Skateboard_SwiftUI/AR Skateboard.xcodeproj">
    </FileRef>
 </Workspace>

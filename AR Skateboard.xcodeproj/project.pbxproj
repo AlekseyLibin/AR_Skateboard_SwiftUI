@@ -15,11 +15,11 @@
 		435DF8D5299FE46000FBA64A /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8D0299FE46000FBA64A /* ARManager.swift */; };
 		435DF8D6299FE46000FBA64A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8D1299FE46000FBA64A /* ContentView.swift */; };
 		435DF8D8299FE46700FBA64A /* AR_SkateboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8D7299FE46700FBA64A /* AR_SkateboardApp.swift */; };
-		435DF8DA299FE47C00FBA64A /* Skateboard.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 435DF8D9299FE47C00FBA64A /* Skateboard.rcproject */; };
+		43B481FC2AB3198C008DFF7C /* Skateboard.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 43B481FB2AB3198C008DFF7C /* Skateboard.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		435DF8BB299FE43F00FBA64A /* AR_Skateboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_Skateboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435DF8BB299FE43F00FBA64A /* AR Skateboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Skateboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		435DF8C2299FE44100FBA64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		435DF8C5299FE44100FBA64A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		435DF8CD299FE46000FBA64A /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
@@ -28,7 +28,7 @@
 		435DF8D0299FE46000FBA64A /* ARManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
 		435DF8D1299FE46000FBA64A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		435DF8D7299FE46700FBA64A /* AR_SkateboardApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AR_SkateboardApp.swift; sourceTree = "<group>"; };
-		435DF8D9299FE47C00FBA64A /* Skateboard.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Skateboard.rcproject; sourceTree = "<group>"; };
+		43B481FB2AB3198C008DFF7C /* Skateboard.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Skateboard.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				435DF8BD299FE43F00FBA64A /* AR_Skateboard */,
-				435DF8D9299FE47C00FBA64A /* Skateboard.rcproject */,
 				435DF8BC299FE43F00FBA64A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,7 +53,7 @@
 		435DF8BC299FE43F00FBA64A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				435DF8BB299FE43F00FBA64A /* AR_Skateboard.app */,
+				435DF8BB299FE43F00FBA64A /* AR Skateboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +64,7 @@
 				435DF8CC299FE46000FBA64A /* AR Components */,
 				435DF8D7299FE46700FBA64A /* AR_SkateboardApp.swift */,
 				435DF8C2299FE44100FBA64A /* Assets.xcassets */,
+				43B481FB2AB3198C008DFF7C /* Skateboard.rcproject */,
 				435DF8C4299FE44100FBA64A /* Preview Content */,
 			);
 			path = AR_Skateboard;
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		435DF8BA299FE43F00FBA64A /* AR_Skateboard */ = {
+		435DF8BA299FE43F00FBA64A /* AR Skateboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 435DF8C9299FE44100FBA64A /* Build configuration list for PBXNativeTarget "AR_Skateboard" */;
+			buildConfigurationList = 435DF8C9299FE44100FBA64A /* Build configuration list for PBXNativeTarget "AR Skateboard" */;
 			buildPhases = (
 				435DF8B7299FE43F00FBA64A /* Sources */,
 				435DF8B8299FE43F00FBA64A /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = AR_Skateboard;
+			name = "AR Skateboard";
 			productName = AR_Skateboard;
-			productReference = 435DF8BB299FE43F00FBA64A /* AR_Skateboard.app */;
+			productReference = 435DF8BB299FE43F00FBA64A /* AR Skateboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 435DF8B6299FE43F00FBA64A /* Build configuration list for PBXProject "AR_Skateboard" */;
+			buildConfigurationList = 435DF8B6299FE43F00FBA64A /* Build configuration list for PBXProject "AR Skateboard" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				435DF8BA299FE43F00FBA64A /* AR_Skateboard */,
+				435DF8BA299FE43F00FBA64A /* AR Skateboard */,
 			);
 		};
 /* End PBXProject section */
@@ -160,10 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435DF8DA299FE47C00FBA64A /* Skateboard.rcproject in Sources */,
 				435DF8D5299FE46000FBA64A /* ARManager.swift in Sources */,
 				435DF8D6299FE46000FBA64A /* ContentView.swift in Sources */,
 				435DF8D3299FE46000FBA64A /* ARAction.swift in Sources */,
+				43B481FC2AB3198C008DFF7C /* Skateboard.rcproject in Sources */,
 				435DF8D4299FE46000FBA64A /* CustomARViewRepresentable.swift in Sources */,
 				435DF8D8299FE46700FBA64A /* AR_SkateboardApp.swift in Sources */,
 				435DF8D2299FE46000FBA64A /* CustomARView.swift in Sources */,
@@ -302,8 +302,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +311,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "aleksey-libin.AR-Skateboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,8 +335,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,16 +344,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "aleksey-libin.AR-Skateboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		435DF8B6299FE43F00FBA64A /* Build configuration list for PBXProject "AR_Skateboard" */ = {
+		435DF8B6299FE43F00FBA64A /* Build configuration list for PBXProject "AR Skateboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				435DF8C7299FE44100FBA64A /* Debug */,
@@ -359,7 +365,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		435DF8C9299FE44100FBA64A /* Build configuration list for PBXNativeTarget "AR_Skateboard" */ = {
+		435DF8C9299FE44100FBA64A /* Build configuration list for PBXNativeTarget "AR Skateboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				435DF8CA299FE44100FBA64A /* Debug */,

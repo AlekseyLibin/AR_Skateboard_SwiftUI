@@ -43,15 +43,12 @@ final class CustomARView: ARView {
           self.skateboard?.notifications.spinBehavior.post()
         case .removeAllAnchors:
           self.scene.anchors.removeAll()
-        case .placeBlock(color: let color):
-          self.placeBlock(ofColor: color)
         }
       }
       .store(in: &cancellables)
   }
   
   func configurationExample() {
-    
     let configuration = ARWorldTrackingConfiguration()
     session.run(configuration)
     
@@ -67,19 +64,7 @@ final class CustomARView: ARView {
     scene.addAnchor(coordinateAnchor)
   }
   
-  func entutyExample() {
-    /*
-     let _ = try? Entity.load(named: "ustzFileName")
-     let _ = try? Entity.load(named: "fileName")
-     */
-    
-    let box = MeshResource.generateBox(size: 1)
-    let entity = ModelEntity(mesh: box)
-    
-    let anchor = AnchorEntity()
-    anchor.addChild(entity)
-  }
-  
+  /*
   func placeBlock(ofColor color: Color) {
     let block = MeshResource.generateBox(size: 1)
     let material = SimpleMaterial(color: UIColor(color), isMetallic: true)
@@ -90,4 +75,5 @@ final class CustomARView: ARView {
     
     scene.addAnchor(anchor)
   }
+   */
 }

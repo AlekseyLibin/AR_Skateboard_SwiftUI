@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 @main
 struct AR_SkateboardApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "435DF8BA299FE43F00FBA64A"
-               BuildableName = "AR_Skateboard.app"
-               BlueprintName = "AR_Skateboard"
-               ReferencedContainer = "container:AR_Skateboard.xcodeproj">
+               BuildableName = "AR Skateboard.app"
+               BlueprintName = "AR Skateboard"
+               ReferencedContainer = "container:AR Skateboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "435DF8BA299FE43F00FBA64A"
-            BuildableName = "AR_Skateboard.app"
-            BlueprintName = "AR_Skateboard"
-            ReferencedContainer = "container:AR_Skateboard.xcodeproj">
+            BuildableName = "AR Skateboard.app"
+            BlueprintName = "AR Skateboard"
+            ReferencedContainer = "container:AR Skateboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "435DF8BA299FE43F00FBA64A"
-            BuildableName = "AR_Skateboard.app"
-            BlueprintName = "AR_Skateboard"
-            ReferencedContainer = "container:AR_Skateboard.xcodeproj">
+            BuildableName = "AR Skateboard.app"
+            BlueprintName = "AR Skateboard"
+            ReferencedContainer = "container:AR Skateboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
